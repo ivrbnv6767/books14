@@ -14,3 +14,4 @@ if st.button("Check book"):
     new_book = st.text_input("Add book")
     if st.button("Add"):
       st.wite(new_book)
+      books = new_book
