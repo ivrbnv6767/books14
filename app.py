@@ -1,9 +1,5 @@
 import streamlit as st
-books = 
-"The Hobbit",
-"Harry Potter",
-"To kill a Mockingbird",
-"Theo of Golden",
+books = "The Hobbit","Harry Potter","To kill a Mockingbird","Theo of Golden"
 
 st.title("Book checker App")
 st.write("Enter a book title to check if it exist in the database")
