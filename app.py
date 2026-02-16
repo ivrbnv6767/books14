@@ -11,6 +11,6 @@ if st.button("Check book"):
     st.success("The book exists in the database")
   else:
     st.error("The book is NOT in the database")
-    new_book = st.text_imput("Add book")
+    new_book = st.text_input("Add book")
     if st.button("Add"):
       st.wite(new_book)
