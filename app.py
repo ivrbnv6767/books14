@@ -13,4 +13,4 @@ if st.button("Check book"):
     st.error("The book is NOT in the database")
 new_book = st.text_input("Add book")
 if st.button("Add"):
-   st.wite(new_book)
+   st.write(new_book)
